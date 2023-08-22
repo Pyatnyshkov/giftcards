@@ -1,0 +1,49 @@
+{
+    "elastic": {
+        "hosts":  ["https://es.egopay.ru/"],
+        "index": "giftcard_test",
+        "auth": {
+            "username": "",
+            "password": ""
+        }
+    },
+    "logger": {
+        "log": "info"
+    },
+    "orderv2": {
+        "host": "order_v2",
+        "url": "http://10.1.100.189:7010/.wsdl",
+        "timeout": 20000,
+        "connectionTimeout": 500
+    },
+    "riak": {
+        "host": "10.1.100.189",
+        "port": 8342,
+        "bucket": "giftcard",
+        "secret": "somesecret"
+    },
+    "loyalty": {
+        "host": "loyalty",
+        "url": "http://10.1.100.189:7010/.wsdl",
+        "timeout": 20000,
+        "connectionTimeout": 500
+    },
+    "coreSettings": {
+        "host": "coresettings",
+        "url": "http://10.1.100.189:7011/.wsdl",
+        "timeout": 20000,
+        "connectionTimeout": 500
+    },
+    "statusv2": {
+        "host": "status_v2",
+        "url":"http://10.1.100.189:7010/.wsdl",
+        "timeout":20000,
+        "connectionTimeout":500
+    },
+    "payments":{
+        "host":"payments",
+        "url":"http://10.1.100.189:7010/.wsdl",
+        "timeout":20000,
+        "connectionTimeout":500
+    }
+}

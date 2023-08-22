@@ -1,0 +1,25 @@
+Source: giftcards
+Section: web
+Priority: optional
+Maintainer: Andrey Minov <minov@ips.su>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/giftcards
+#Vcs-Git: https://salsa.debian.org/debian/giftcards.git
+Rules-Requires-Root: no
+
+
+Package: giftcards-backend
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: giftcards backend js content (IPS)
+ <Insert long description, indented with spaces.>
+
+Package: giftcards-frontend
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: giftcards frontend js content (IPS)
+ <Insert long description, indented with spaces.>

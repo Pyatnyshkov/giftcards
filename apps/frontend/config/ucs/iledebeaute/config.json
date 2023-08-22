@@ -1,0 +1,6 @@
+{
+  "name": "iledebeaute",
+  "card_length": [16, 18, 19],
+  "pin_length": [3,4],
+  "captcha": true
+}

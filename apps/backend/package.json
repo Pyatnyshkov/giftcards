@@ -1,0 +1,32 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@elastic/elasticsearch": "8.6.0",
+        "@nestjs/common": "^9.1.1",
+        "@nestjs/config": "^2.3.2",
+        "@nestjs/core": "^9.1.1",
+        "class-transformer": "0.5.1",
+        "class-validator": "0.14.0",
+        "cookie-parser": "1.4.6",
+        "express-riak": "0.1.0",
+        "express-session": "1.17.3",
+        "md5": "^2.3.0",
+        "rxjs": "^7.8.0",
+        "winston": "^3.8.2",
+        "winston-elasticsearch": "0.17.2"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "1.4.3",
+        "@types/express-session": "^1.17.6",
+        "@types/md5": "^2.3.2"
+    }
+}

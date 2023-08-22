@@ -1,0 +1,657 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.container_wide {
+    max-width: 760px;
+    margin: 0 auto;
+    width: 91%;
+}
+
+.card_header {
+    background: #000;
+    color: #fff;
+    height: 50px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    min-height: 280px;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ebebeb;
+}
+
+.result_title {
+    color: #e40437;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card_row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card_row:nth-child(2) .card_col {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card_col-pay {
+    flex-wrap: wrap;
+}
+
+.card_row:last-child {
+    align-items: flex-end;
+}
+
+.card_col {
+    width: 50%;
+}
+
+.card_col_row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.order_desc-amount {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card_form-balance {
+	display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+label {
+	position: relative;
+    display: block;
+}
+
+.card_form-balance .card_form-cardnumber {
+    width: 100%;
+}
+
+.card_form-balance .card_form-pin {
+    margin-left: 10px;
+}
+
+.form_input {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 13px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 70%;
+    flex: 1 70%;
+    text-align: center;
+    font-weight: normal;
+    outline: none;
+    width: 100%;
+}
+
+.card_form-pin .form_input {
+    width: 150px;
+}
+
+input::placeholder{
+    color: #6d6d6d;
+    font-size: 14px;
+}
+
+.form_input-wide {
+    width: 100%;
+}
+
+.giftcard_content-checkbox {
+    display: none;
+}
+
+.giftcard_contact_check {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px 0 10px;
+}
+
+.giftcard_contact_check-text {
+    position: relative;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.giftcard_content-checked {
+    display: block;
+    min-width: 25px;
+    max-width: 25px;
+    height: 25px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.giftcard_content-checked-true:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    top: 11px;
+    left: 1px;
+    transform: rotate(45deg);
+    width: 9px;
+    height: 3px;
+}
+
+.giftcard_content-checked-true:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    transform: rotate(-55deg);
+    width: 15px;
+    height: 3px;
+    top: 8px;
+    left: 4px;
+}
+
+.form_input-title {
+	font-size: 14px;
+	margin-bottom: 10px;
+    display: none;
+}
+
+.form_input-error {
+    color: #d50032;
+    position: absolute;
+    bottom: -15px;
+    top: auto;
+    font-size: 13px;
+}
+
+.card_form-cardnumber input {
+	width: 100%;
+}
+
+.button {
+	color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 0 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.2;
+}
+
+.button_result {
+    margin: 0 auto;
+    display: block;
+}
+
+.captcha_block {
+    position: relative;
+    min-width: 304px;
+}
+
+.timer {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.timer_text {
+    width: 93%;
+    display: flex;
+    align-items: center;
+}
+
+.balance_footer button {
+    margin-right: 20px;
+}
+
+.offer_tip {
+    opacity: .6;
+}
+
+.offer_links a {
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+    opacity: .8;
+}
+
+.offer_links a:visited {
+    color: blue;
+}
+
+.balance_footer {
+	display: flex;
+	align-items: flex-end;
+}
+
+.balance_result-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.balance_result-amount {
+    margin: 30px 0;
+    font-size: 30px;
+    text-align: center;
+    color: #d50032;
+}
+
+.balance_error-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.balance_error-message {
+    font-size: 22px;
+    text-align: center;
+    width: 395px;
+    margin: 0 auto;
+}
+
+.balance_error-tip {
+    text-align: center;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.result_error {
+	margin-top: 10px;
+	font-size: 15px;
+	color: #d50032;
+}
+
+.card_result {
+    min-height: 298px;
+}
+
+.result_message-container {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.result_message {
+    margin-bottom: 25px;
+}
+
+.result_tip {
+    font-size: 14px;
+}
+
+.result_support {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.loader {
+    text-align: center;
+}
+
+.pay_error {
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pay_error-container {
+    width: 90%;
+    border: 1px solid #e40437;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background: #f1efef;
+}
+
+.pay_error-tip {
+    text-align: center;
+    color: #e40437;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.pay_error-text {
+    text-align: center;
+    font-size: 13px;
+}
+
+.giftacard_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.giftcard_content-figure {
+    margin: 0;
+    padding: 0;
+    width: 323px;
+}
+
+.giftcard_content-parag {
+    position: relative;
+    margin: 0;
+    padding-left: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.giftcard_content-parag:before {
+    content: "i";
+    display: block;
+    position: absolute;
+    left: 5px;
+    width: 17px;
+    text-align: center;
+    height: 17px;
+    color: #FFF;
+    background-color: #000;
+    border-radius: 50%;
+    top: 2px;
+}
+
+.giftcard_content-image {
+    width: 323px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.giftcard_content-right {
+    width: 50%;
+}
+
+.giftcard_amount-chips {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amount_chip {
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: 10px 5px 0 0;
+    cursor: pointer;
+}
+
+.pref_chip {
+    border-color: #e40437;
+}
+
+.amount_chip-input:checked + .amount_chip {
+    background-color: #e40437;
+    border: #e40437;
+    color: #fff;
+}
+
+.amount_chip-input {
+    display: none;
+}
+
+.giftcard_amount-custom {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.giftcard_amount-custom_tip {
+    width: 40%;
+}
+
+.selectedAmount {
+    font-weight: bold;
+}
+
+.giftacard_footer {
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.giftacard_footer > div {
+    width: 50%;
+}
+
+.giftcard_contact {
+    margin-top: 30px;
+    position: relative;
+}
+
+.error_title {
+    text-align: center;
+    margin: auto;
+}
+
+.result_container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.result_timer {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pay_balance_text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pay_balance_text-amount {
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    width: 60px;
+    height: 25px;
+    outline: none;
+    text-align: center;
+}
+
+.pay_balance_text-amount-error {
+    border-color: #e40437;
+}
+
+.tooltip {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: .8em;
+}
+
+.tooltip-text {
+    color: #fff;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.8);
+    position: absolute;
+    font-size: 12px;
+    top: 53px;
+    width: 200px;
+    z-index: 999;
+    right: 50px;
+    text-transform: initial;
+    text-align: center;
+}
+
+.tooltip:hover ~ .tooltip-text {
+    display: block;
+}
+
+.card_form-pin {
+    display: flex;
+    align-items: center;
+}
+
+.tooltip-text_pin {
+    left: 0;
+}
+
+@media  (max-width: 500px) {
+    .card_header {
+        font-size: 16px;
+    }
+}
+
+@media  (max-width: 390px) {
+    .card_header {
+        font-size: 14px;
+    }
+
+    .card_form-balance {
+        flex-wrap: wrap;
+    }
+
+    .card_form-balance label {
+        margin-bottom: 15px;
+    }
+
+    .card_form-balance .card_form-pin {
+        margin-left: 0;
+    }
+
+    .balance_footer {
+        flex-wrap: wrap;
+    }
+
+    .offer_container {
+        margin-top: 10px;
+    }
+
+    .card_col_row {
+        flex-wrap: wrap;
+    }
+
+    .card_col_row > * {
+        width: 100%;
+    }
+
+    .card_form-pin {
+        margin-bottom: 20px;
+    }
+
+    .captcha_block {
+        margin-bottom: 10px;
+    }
+
+    .captcha_block .form_input-error {
+        bottom: -10px;
+    }
+}
+
+@media  (max-width: 700px) {
+    .card_row {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .card_row:first-child {
+        flex-direction: column;
+    }
+
+    .card_row:nth-child(2) .card_col {
+        height: auto;
+    }
+
+    .card_col {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .pay_error-container {
+        width: 100%;
+    }
+}
+
+@media  (max-width: 768px) {
+    .giftacard_content {
+        flex-wrap: wrap;
+    }
+
+    .giftcard_content-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .giftcard_content-right {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .giftcard_amount-chips {
+        margin: 0;
+    }
+
+    .giftcard_contact {
+        margin-top: 15px;
+    }
+
+    .giftacard_footer {
+        margin-top: 15px;
+    }
+
+    .giftacard_footer > div {
+        width: 100%;
+    }
+
+    .giftacard_footer .offer_container {
+        margin-top: 10px;
+    }
+}
+
+@media  (min-width: 500px) and (max-width: 768px) {
+    .giftcard_content-image {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

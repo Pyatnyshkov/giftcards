@@ -1,0 +1,10 @@
+{
+  "name": "Sephora",
+  "card_length": [16, 18, 19],
+  "pin_length": [3,4],
+  "captcha": true,
+  "placeholder": true,
+  "show_pin_balance": true,
+  "offer": "https://iledebeaute.ru/@/project/fit/ind_giftcards.pdf",
+  "pd": "https://iledebeaute.ru/privacy-policy/"
+}

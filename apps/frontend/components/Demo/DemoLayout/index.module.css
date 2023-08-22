@@ -1,0 +1,39 @@
+.demo_header {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.demo_tip {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.demo_button {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+.demo_frame {
+    margin: 20px auto;
+    display: block;
+}
+
+.frame_container {
+    background: #ebebeb;
+    padding-top: 50px;
+    margin-top: 50px;
+}

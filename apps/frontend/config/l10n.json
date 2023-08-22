@@ -1,0 +1,286 @@
+{
+  "payGiftCard": {
+    "ru": "Оплата подарочной картой",
+    "en": "Pay by giftcard"
+  },
+  "amountToPay": {
+    "ru": "Сумма к оплате",
+    "en": "Amount to pay"
+  },
+  "orderNumber": {
+    "ru": "Номер заказа",
+    "en": "Order number"
+  },
+  "cardNumber": {
+    "ru": "Номер карты",
+    "en": "Card number"
+  },
+  "errorCardNumber": {
+    "ru": "Неверный номер карты",
+    "en": "Wrong card number"
+  },
+  "pinCode": {
+    "ru": "PIN-код",
+    "en": "PIN code"
+  },
+  "errorPinCode": {
+    "ru": "Неверный PIN-код",
+    "en": "Wrong PIN code"
+  },
+  "pay": {
+    "ru": "Оплатить",
+    "en": "Pay"
+  },
+  "giftcardRules": {
+    "ru": "Правила использования подарочных карт",
+    "en": "Gift card usage rules"
+  },
+  "tlimit": {
+    "ru": "Необходимо завершить оформление заказа в течение",
+    "en": "Place an order in"
+  },
+  "min": {
+    "ru": "минут",
+    "en": "minutes"
+  },
+  "error": {
+    "ru": "Произошла ошибка, пожалуйста, попробуйте позже",
+    "en": "An error occured, please try again later"
+  },
+  "support": {
+    "ru": "Произошла ошибка, пожалуйста, обратитесь в тех. поддержку",
+    "en": "An error has occurred, please contact tech support"
+  },
+  "connection": {
+    "ru": "Отсутствует интернет соединение",
+    "en": "Lost internet connection"
+  },
+  "loading": {
+    "ru": "Загрузка. Подождите, пожалуйста.",
+    "en": "Loading. Please wait."
+  },
+  "checkOut": {
+    "ru": "Проверить",
+    "en": "Check out"
+  },
+  "allow": {
+    "ru": "Баланс Вашей карты",
+    "en": "Your card balance"
+  },
+  "invalidPin": {
+    "ru": "Введен неверный PIN-код!",
+    "en": "Invalid PIN"
+  },
+  "insufficientFunds": {
+    "ru": "Недостаточно средств",
+    "en": "Insufficient funds"
+  },
+  "cardBlock": {
+    "ru": "Повторите попытку оплаты через ",
+    "en": "Try to pay again in "
+  },
+  "cardBlockForHour": {
+    "ru": "Оплата данной картой заблокирована. Пожалуйста, попробуйте позже.",
+    "en": "Payment with this card is blocked. Please, try again later."
+  },
+  "cardLocked": {
+    "ru": "Вы исчерпали число попыток оплаты. Оплата данной картой заблокирована",
+    "en": "You have exhausted the number of payment attempts. Payment with this card is blocked"
+  },
+  "captchaError": {
+    "ru": "Докажите, что Вы не робот",
+    "en": "Please fill captcha"
+  },
+  "is": {
+    "ru": "составляет:",
+    "en": "is:"
+  },
+  "back": {
+    "ru": "Вернуться",
+    "en": "Back"
+  },
+  "next": {
+    "ru": "далее",
+    "en": "next"
+  },
+  "amount_tip": {
+    "ru": "Вы можете купить карту следующих номиналов",
+    "en": "You can buy a card of the following values"
+  },
+  "custom_tip": {
+    "ru": "Или укажите свой номинал",
+    "en": "Or enter your rating"
+  },
+  "enterAmount": {
+    "ru": "Введите число",
+    "en": "Enter amount"
+  },
+  "selectedAmount": {
+    "ru": "Вы выбрали карту на",
+    "en": "You have chosen a card for"
+  },
+  "rub": {
+    "ru": "рублей",
+    "en": "rubles"
+  },
+  "RUB": {
+    "ru": "руб",
+    "en": "rub"
+  },
+  "emailError": {
+    "ru": "Некорректно введен email",
+    "en": "Email invalid"
+  },
+  "phoneError": {
+    "ru": "Некорректно введен телефон",
+    "en": "Phone invalid"
+  },
+  "required": {
+    "ru": "Обязательное поле",
+    "en": "This field is required"
+  },
+  "offer_tip": {
+    "ru": "Подарочные карты \"ИЛЬ ДЕ БОТЭ\"",
+    "en": "\"ИЛЬ ДЕ БОТЭ\" Gift Card"
+  },
+  "offer_rules": {
+    "ru": "Правила использования",
+    "en": "Terms of use"
+  },
+  "offer_offer": {
+    "ru": "Положение о ПД",
+    "en": "Regulations PD"
+  },
+  "header_balance": {
+    "ru": "Проверить баланс подарочной карты",
+    "en": "Check the gift card balance"
+  },
+  "tip_balance": {
+    "ru": "Проверьте баланс Вашей подарочной карты, введя ее номер ниже",
+    "en": "Check your gift card balance by entering its number below"
+  },
+  "header_pay": {
+    "ru": "Оплата заказа подарочной картой",
+    "en": "Pay by gift card"
+  },
+  "attention": {
+    "ru": "Внимание!",
+    "en": "Attention!"
+  },
+  "result_fault_title": {
+    "ru": "Ошибка!",
+    "en": "Error!"
+  },
+  "result_ok_title": {
+    "ru": "Спасибо, что выбрали \"ИЛЬ ДЕ БОТЭ\"",
+    "en": "Thank you for choosing \"ИЛЬ ДЕ БОТЭ\""
+  },
+  "enterEmail": {
+    "ru": "Ваш email",
+    "en": "Your email"
+  },
+  "enterPhone": {
+    "ru": "Ваш телефон",
+    "en": "Your phone"
+  },
+  "toShop": {
+    "ru": "В магазин",
+    "en": "To shop"
+  },
+  "result_pay": {
+    "ru": "Купить подарочную карту \"ИЛЬ ДЕ БОТЭ\"",
+    "en": "Buy \"ИЛЬ ДЕ БОТЭ\" gift card"
+  },
+  "result_ok_message": {
+    "ru": "Ваша подарочная карта была отправлена на e-mail, указанный Вами при покупке карты.",
+    "en": "Your gift card was sent to the email address you provided when you purchased the card."
+  },
+  "result_ok_tip": {
+    "ru": "Пожалуйста, проверьте Вашу почту.",
+    "en": "Please check your email."
+  },
+  "result_fault_message": {
+    "ru": "Не удалось подтвердить покупку подарочной карты. При проведении операции возникла ошибка.",
+    "en": "The gift card purchase could not be confirmed. An error occurred during the transaction."
+  },
+  "result_fault_tip": {
+    "ru": "Мы делаем все возможное, чтобы исправить ситуацию. Пожалуйста, повторите попытку позже.",
+    "en": "We are doing our best to correct the situation. Please try again later."
+  },
+  "result_support": {
+    "ru": "Если ошибка повторяется - обратитесь в службу поддержки 8 800 123 456 789",
+    "en": "If the error repeats - contact our support service 8 800 123 456 789"
+  },
+  "balance_error_title": {
+    "ru": "Не удалось проверить баланс Вашей карты.",
+    "en": "We were unable to check your card balance."
+  },
+  "balance_error_message": {
+    "ru": "При проверке произошла ошибка. Нам очень жаль.",
+    "en": "There was an error during the check. We are very sorry."
+  },
+  "balance_error_tip": {
+    "ru": "Мы делаем все возможное, чтобы исправить ситуацию. Пожалуйста, повторите попытку позднее.",
+    "en": "We are doing our best to correct the situation. Please try again later."
+  },
+  "pay_order": {
+    "ru": "Ваш заказ",
+    "en": "Your order"
+  },
+  "pay_amount": {
+    "ru": "на сумму",
+    "en": "for"
+  },
+  "pay_ok": {
+    "ru": "успешно оплачен!",
+    "en": "succesfully payed!"
+  },
+  "pay_ok_tip": {
+    "ru": "Детали заказа и чек мы отправили Вам на e-mail. Возвращайтесь еще!",
+    "en": "We sent you order details and a check by e-mail. Come back again!"
+  },
+  "pay_fail_message": {
+    "ru": "Не удалось оплатить заказ подарочной картой. При проведении операции возникла ошибка.",
+    "en": "Failed to pay for the order with a gift card. An error occurred during the transaction."
+  },
+  "loading_fault_message": {
+    "ru": "Не удалось перейти к процессу оплаты заказа. При проведении операции возникла ошибка.",
+    "en": "It was not possible to proceed to the order payment process. An error occurred during the transaction."
+  },
+  "loading_fault_tip": {
+    "ru": "Мы делаем все возможное, чтобы исправить ситуацию. Пожалуйста, повторите попытку позднее.",
+    "en": "We are doing our best to correct the situation. Please try again later."
+  },
+  "loading_support": {
+    "ru": "Если ошибка повторяется - обратитесь в службу поддержки 8 800 123 456 789",
+    "en": "If the error repeats - contact our support service 8 800 123 456 789"
+  },
+  "agree_text": {
+    "ru": "Даю согласие на обработку персональных данных",
+    "en": "I agree to the processing of personal data"
+  },
+  "agree_link": {
+    "ru": "в соответствии с условиями",
+    "en": "according to conditions"
+  },
+  "electronic_gift_cards": {
+    "ru": "Электронные подарочные карты принимаются к оплате во всех магазинах \"ИЛЬ ДЕ БОТЭ\"",
+    "en": "Electronic gift cards are accepted in all \"ИЛЬ ДЕ БОТЭ\" stores"
+  },
+  "expired_tip": {
+    "ru": "Срок действия карты истек",
+    "en": "The card has expired"
+  },
+  "expired_text": {
+    "ru": "Истек период действия подарочной карты. Пожалуйста, обратитесь в поддержку",
+    "en": "Your gift card validity period has expired. Please contact support at"
+  },
+  "expired_comment": {
+    "ru": "8-800-100-000-5",
+    "en": "8-800-100-000-5"
+  },
+  "": {
+    "ru": "",
+    "en": ""
+  }
+}
